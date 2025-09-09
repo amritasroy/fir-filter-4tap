@@ -1,0 +1,17 @@
+# Build / simulation
+work-obj*.cf
+*.o
+*.cf
+*.ghw
+*.vcd
+*.wlf
+*.log
+*.out
+*.asdb
+*.dat
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
