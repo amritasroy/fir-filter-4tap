@@ -10,6 +10,15 @@ This repo organizes the full project for portfolios and job applications, with c
 > - 16‑bit inputs/coeffs; **34‑bit** accumulated output
 > - Modular VHDL‑2019 code + testbench
 
+---
+
+## Architecture Selection
+Explored multiple architecture variants with timing & power trade-offs.  
+Chosen **ID 122** satisfies both constraints.
+
+![Pareto Chart](assets/pareto_front.png)
+
+
 ## System Architecture
 ![Block Diagram](assets/block_diagram.png)
 
@@ -21,14 +30,6 @@ Expected first valid output:
 `y = 10*1 + 11*2 + 12*3 + 13*4 = 120`
 
 ![Waveform](assets/simulation_waveform.png)
-
----
-
-## Architecture Selection
-Explored multiple architecture variants with timing & power trade-offs.  
-Chosen **ID 122** satisfies both constraints.
-
-![Pareto Chart](assets/pareto_front.png)
 
 ---
 ## Repository Structure
