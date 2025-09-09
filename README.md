@@ -82,6 +82,16 @@ Expected first correct output:
 - Code targets generic FPGA and standard simulators. Timing numbers are analytic from the report; actual post‑synthesis timing depends on the device and toolchain.
 - For classroom submission, include `docs/Project_Report.pdf`. For portfolio, link this repo and optionally post diagrams under `/assets`.
 
-## License
-MIT — see `LICENSE` for details.
-# fir-filter-4tap
+
+## ✍️ Author
+
+- Amrita Sinha Roy
+If you use this work, please cite the project/report accordingly.
+---
+
+## 🧾 License
+
+
+MIT --- see [LICENSE](./LICENSE)
+
+
